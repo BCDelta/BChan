@@ -1,0 +1,13 @@
+/* Animation for showcase and skills header */
+@keyframes reactiveGradient {
+    0% {background-position: 0% 50%;}
+    50%{background-position: 100% 0%;}
+    100%{background-position: 0% 50%;}
+}
+/*Animation for the sliding subtitle text */
+@keyframes fade-in {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
+}

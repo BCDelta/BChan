@@ -1,0 +1,114 @@
+/* About introduction section */
+#about-header {
+    width: 60%;
+    height: 100%;
+    background: rgba(11, 11, 12, 0.95);
+    display: inline-block;
+    position: relative;
+}
+#about-wrapper img {
+    opacity: 0.5;
+    z-index: -99;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    position: absolute;
+    display: block;
+}
+#about-header h1 {
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    font-size: 5.0rem;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+#about-content {
+    border-left: 5px inset rgb(131, 131, 131);
+    background:rgba(28, 29, 31, 0.95);
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+#about-content h3 {
+    font-size: 3.0rem;
+    color:rgb(179, 179, 179);
+    margin: 0;
+    position: relative;
+    top: 45%;
+    margin-left: 5%;
+}
+#about-banner {
+    background: rgb(24, 24, 24);
+    color:rgba(255, 255, 255, 0.877);
+}
+ul {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-left: 0;
+}
+ul li {
+    list-style: none;
+    width: 30px;
+    padding: 0 2.5px;
+    margin: 0 10px;
+    transition: transform 0.5s ease;
+}
+ul li:hover {
+    transform: scale(1.25);
+}
+#about-block {
+    background:rgb(32, 34, 34);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1.25% 0;
+}
+#about-block * {
+    padding: 5px 0;
+}
+#about-block > img:first-child {
+    border-radius: 15%;
+    margin-top: 5%;
+    box-shadow: 10px 12px 7px 0px rgb(20, 20, 20);
+}
+#about-section {
+    padding: 50px;
+}
+#about-section > h3 {
+    color: rgb(255, 174, 68);
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+#about-section > p {
+    color: rgb(219, 219, 219);
+    font-size: 2.0rem;
+    margin: 2.5% 0;
+}
+#achievement-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+#achievement {
+    padding: 0 15px;
+    position: relative;
+    width: 100%;
+    border: 5px inset rgb(223, 147, 8);
+    border-radius: 2.5%;
+    text-align: center; 
+    color: white;
+    background: rgb(20, 20, 20);
+}
+#uc-link {
+    color: white;
+    border-bottom: 1px dotted rgb(223, 147, 8);
+    text-decoration: none;
+}
+#uc-link:hover {
+    color: rgb(223, 147, 8);
+    font-weight: bolder;
+}

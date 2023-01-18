@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    
+    <!--Import Stylesheets-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--Import Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <title>Personal Website</title>
+</head>
+<body onload="populateSkills()">
+    <nav id="nav-bar">
+        <a href="./about.html">About</a>
+        <a href="./projects.html">Projects</a>
+        <a href="https://www.linkedin.com/in/bryan-chan831" target="blank">
+            <img src="./images/linkedin.png" alt="Linkedin logo">
+        </a>
+    </nav>
+    <section>
+        <div class="container-fluid" id="profile-block">
+            <div class="row" id="profile-cover">
+                <div class="col-lg-4">
+                    <img src="./images/profile_pic.jpg">
+                </div>
+                <div class="profile-text col-lg-6 col-lg-offset-1 text-center">
+                    <h1>Bryan Chan</h1>
+                    <h2 id="subtitle"> < Web Developer > </h2>
+                    <div class="wrapper" style="right: 160px;">
+                        <a href="./projects.html">Browse Projects</a>
+                    </div>
+                    <div class="wrapper">
+                        <a href="./assets/Resume.pdf" target="blank">View Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section>
+            <div class="jumbotron text-center" id="showcase-banner">
+                <h1>Multimedia Expert</h1>
+            </div>
+            <div class="container-fluid text-center" id="showcase">
+                <div class="row">
+                    <div class="col-lg-4 item">
+                        <a href="https://www.youtube.com/channel/UCxRCISOOVqJ5wjsBUFT3I_A/videos" target="blank">
+                            <img src="./images/yt_icon_mono_light.png">
+                        </a>
+                        <h3>Youtube Tutorials</h3>
+                        <h4>+ 9K Subscribers</h4>
+                    </div>
+                    <div class="col-lg-4 item">
+                        <a href="https://www.instagram.com/artchanny/?hl=en" target="blank">
+                            <img src="./images/ig_logo_dark.png">
+                        </a>
+                        <h3>Instagram Art Page</h3>
+                        <h4>+ 4k Followers</h4>
+                    </div>
+                    <div class="col-lg-4 item">
+                        <img src="./images/graphic_art.png">
+                        <h3>3rd Place Digital Media Award</h3>
+                        <h4>UCSD 2020</h4>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br>
+    <section>
+        <div id="skills">
+            <div id="skills-banner" class="jumbotron">
+                <h1>Diverse Skillset</h1>
+                <p>Being a self learner and a avid computer nerd, 
+                    I have brought upon many useful skills to the job market such as...</p>
+            </div>
+            <div class="text-center">
+                <h1 style="text-decoration: underline">Programming</h1>
+                <br>
+            </div>
+            <div class="container">
+                <div class="skill-types">
+                    <div class="card">
+                        <h1>Java</h1>
+                    </div>
+                    <div class="card">
+                        <h1>CSS</h1>
+                    </div>
+                    <div class="card">
+                        <h1>HTML</h1>
+                    </div>
+                    <div class="card">
+                        <h1>JavaScript</h1>
+                    </div>
+                    <div class="card">
+                        <h1>Bootstrap</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="text-center">
+                    <h1 style="text-decoration: underline">Graphic Design / Media</h1>
+                    <br>
+                </div>
+                <div class="skill-types">
+                    <div class="card">
+                        <h1>Blender</h1>
+                    </div>
+                    <div class="card">
+                        <h1>MagicaVoxel</h1>
+                    </div>
+                    <div class="card">
+                        <h1>Adobe CC</h1>
+                    </div>
+                    <div class="card">
+                        <h1>Premiere Pro</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="text-center">
+                    <h1 style="text-decoration: underline">Relevant Skills</h1>
+                    <br>
+                </div>
+                <div id="soft-skills" class="text-center"></div>
+        </div>
+    </section>
+    <footer>Bryan Chan All Rights Reserved. 2023</footer>
+
+    <script src="./javascript/skills.js"></script>
+    <script src="./javascript/codeRandomizer.js"></script>
+</body>
+</html>

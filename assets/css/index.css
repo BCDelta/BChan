@@ -1,0 +1,155 @@
+/* Profile Section */
+#profile-block {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), 
+    rgba(0, 0, 0, 0.692)), url("../../images/cover_background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#profile-cover {
+    padding: 2.5% 0%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.profile-text {
+    backdrop-filter: blur(5px);
+    background-color: rgba(148, 148, 148, 0.219);
+    padding: 15px;
+    border: 5px solid rgba(255, 255, 255, 0.575);
+}
+#profile-cover img {
+    margin: 15% 0%;
+}
+#profile-cover h1 {
+    font-size: 6.25rem;
+}
+#profile-cover h2 {
+    font-size: 2.0rem;
+}
+
+#subtitle {
+    opacity: 0;
+    position: relative;
+    -webkit-animation: fade-in 8.5s ease-in-out infinite;
+    animation: fade-in 8.5s ease-in-out alternate infinite;
+}
+
+/* Showcase Section */
+#showcase {
+    background-color: lightgrey;
+    padding: 35px;
+    color: black;
+}
+#showcase img {
+    user-select: none;
+    height: 5vw;
+}
+#showcase a > img {
+    transition: transform 0.5s ease;
+}
+#showcase a > img:hover {
+    transform: scale(1.05);
+}
+#showcase-banner {
+    color: white;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #ff8641 0%, #fd8c21b2 50%, #ff593ccb 100%);
+    background-attachment: fixed;
+    background-size: 420% 200%;
+    animation: reactiveGradient 5s ease-in-out infinite;
+}
+#showcase-banner h1 {
+    font-size: 2.5vw;
+}
+/* Wrapper for projects button */
+.wrapper {
+    max-width: 100%;
+    position: absolute;
+    box-shadow: 0 18px rgb(255, 174, 68);
+    right: 0;
+    top: 125%;
+    transition: transform 0.25s ease-in-out;
+}
+.wrapper:active {
+    transform: translateY(8px);
+    box-shadow: 0 10px rgb(177, 103, 6);
+}
+.wrapper a {
+    padding: 15px;
+    bottom: 0px;
+    background-color: rgb(32, 34, 34);
+    font-size: 1.75rem;
+    text-decoration: none;
+    color: white;
+    transition: bottom 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
+.wrapper a:hover {
+    position: relative;
+    bottom: 5.5px;
+    color: white;
+    background-color: rgb(19, 19, 19);
+}
+
+/* Skills Section */
+#skills {
+    background-color: #0a4afa;
+    background-image: linear-gradient(225deg, #008cff98 0%, #2277c5 50%, #0e56a8da 100%);
+    padding-bottom: 5%;
+    color: white;    
+}
+#skills-banner {
+    background-color: #1d2cb8;
+    background-image: linear-gradient(225deg, rgb(15, 62, 122) 0%, rgb(7, 78, 172) 50%, rgb(3, 122, 168) 100%);
+    background-attachment: fixed;
+    background-size: 420% 200%;
+    animation: reactiveGradient 5s ease-in-out infinite;
+    box-shadow: 0 5px 3px 0 rgba(23, 51, 94, 0.705);
+    display: inline-block;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5% 5%;
+    animation: reactiveGradient 7.5s ease-in-out infinite;
+}
+#skills-banner p {
+    font-size: 1em;
+    text-align: center;
+}
+.card {
+    width: 15%;
+    padding: 1.5% 0;
+    text-align: center;
+    border: 5.5px solid rgba(207, 236, 255, 0.726);
+    background: rgba(55, 165, 216, 0.164);
+    border-radius: 15px;
+    user-select: none;
+    transition: transform 0.5s ease;
+}
+.card:hover {
+    transform: scale(1.25);
+}
+.skill-types {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.card h2 {
+    font-size: 1.25em;
+}
+.card h1 {
+    font-size: 2.0rem;
+}
+#soft-skills {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+#soft-skills h2 {
+    transition: font-size 0.5s ease;
+    font-size: 1.25em;
+}
+#soft-skills h2:hover {
+    font-size: 2.5rem;
+    cursor: default;
+}

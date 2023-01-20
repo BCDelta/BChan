@@ -47,3 +47,9 @@ footer {
     text-align: center;
     color: white;
 }
+footer  a {
+    color: white;
+}
+footer a:hover {
+    color: rgb(30, 206, 206);
+}
